@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+h1, h3{
+  color: white;
+}
+.button {
+  color: black;
+  background: rgba(248,249,250,.75);
+  border-color: rgba(248,249,250,.75);
+  width: 20%;
+  height: 25%;
+}
+
+.button[data-size="2"] {
+  height: 40%;
+}
+
+.button:hover {
+  background: #d7ddd3;
+  cursor: default;
+}
+
+.screen {
+  font-size: 2em;
+  color: white;
+}
+
+.Keypad {
+  height: 80%;
+  font-size: 2.5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+body {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.calculator {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin: 25px;
+}

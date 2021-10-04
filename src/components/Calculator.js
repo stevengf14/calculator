@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Keypad from './Keypad';
 import ResultBox from './ResultBox';
 import Button from './Button';
